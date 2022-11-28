@@ -138,7 +138,6 @@ def pregunta_04():
     )
     return gridsearchcv
 
-
 def pregunta_05():
     """
     Evalue el modelo obtenido.
