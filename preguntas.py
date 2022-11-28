@@ -119,7 +119,7 @@ def pregunta_04():
         'mlpregressor__learning_rate': ['adaptive'],
         'mlpregressor__momentum': [0.7, 0.8, 0.9],  
         'mlpregressor__learning_rate_init': [0.01, 0.05, 0.1],  
-        'mlpregressor__max_iter': [5000],  
+        'mlpregressor__max_iter': [2000],  
         'mlpregressor__early_stopping': [True],  
     }
 
@@ -168,6 +168,12 @@ def pregunta_05():
         y_test,  
         y_test_pred,
     )
-
+    # print(mse_train, mse_test)
     # Retorne el mse de entrenamiento y prueba
     return mse_train, mse_test
+
+# pregunta_01()
+# pregunta_02()
+# pregunta_03()
+# pregunta_04()
+# pregunta_05()
